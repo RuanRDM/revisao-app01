@@ -1,6 +1,4 @@
-export default App;
-
-const arquivoManipulador = require('./arquivoManipulador.jsx');
+const arquivoManipulador = require('./arquivoManipulador.js');
 
 const nomeArquivo = 'dados.json';
 
@@ -20,3 +18,5 @@ console.log('Objeto removido do arquivo.');
 
 console.log('Conteúdo atualizado do arquivo:');
 console.log(arquivoManipulador.lerArquivo(nomeArquivo));
+
+
